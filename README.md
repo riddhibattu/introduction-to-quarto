@@ -21,7 +21,7 @@ Ensure you have the following installed:
    - Open your terminal or command prompt.
    - Use the following command to convert the notebook to a Quarto document:
      ```bash
-     quarto convert your_notebook.ipynb --to qmd
+     quarto convert jupyter_notebook.ipynb -o output_file.qmd
      ```
    - This will generate a Quarto markdown file (`.qmd`).
 
@@ -76,4 +76,4 @@ Here is an example workflow:
 
 ### 5. Conclusion
 
-This guide provides the basics for converting a Jupyter notebook to Quarto and customizing the document. For advanced features, refer to the [Quarto documentation](https://quarto.org/docs/guide/).
+This guide provides the basics for converting a Jupyter notebook to Quarto and customizing the document. For advanced features, refer to the [Quarto documentation](https://quarto.org/docs/guide/). This is the [DSCI book by UBC](https://ubc-dsci.github.io/reproducible-and-trustworthy-workflows-for-data-science/materials/lectures/08-reproducible-reports.html#).
